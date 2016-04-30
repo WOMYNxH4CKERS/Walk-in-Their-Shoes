@@ -4,8 +4,7 @@ package com.frusby.baseproject;
  * Created by deeekitty on 4/30/16.
  */
 public class User {
-    protected String firstname;
-    protected String lastname;
+    protected String username;
     protected double money;
     protected boolean housing;
     protected boolean food;
@@ -13,9 +12,8 @@ public class User {
     protected boolean clothes;
     protected boolean education;
     protected boolean refugee;
-    public User(String firstname, String lastname, boolean refugee) {
-        this.firstname = firstname;
-        this.lastname = lastname;
+    public User(String username, boolean refugee) {
+        this.username = username;
         this.refugee = refugee;
         this.money = 0;
         this.housing = false;
