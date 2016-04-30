@@ -32,22 +32,22 @@ public class ConnectTab extends TabFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        populateListView();
 
     }
 
-//    private void populateListView() {
-//        String[] items = {"1600 W. Pennsylvania Ave. Washington DC", "919 University Dr. Riverside, CA","1200 E. California Blvd Pasadena, CA","One Microsoft Way Redmond, WA"};
-//        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.text_view, items);
-//        ListView list = (ListView) findViewById(R.id.list_view);
-//        list.setAdapter(adapter);
-//    }
+    private void populateListView() {
+        String[] items = {"Hello, I am looking for some temporary housing.", "My children need some coats for the winter.","Where can I take some workforce classes?","Does anyone have the address of a foodbank near me?"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(parentActivity, R.layout.text_view, items);
+        ListView list = (ListView) mainView.findViewById(R.id.list_view);
+        list.setAdapter(adapter);
+    }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mainView = inflater.inflate(R.layout.connect_tab, container, false);
         ButterKnife.bind(this, mainView);
+        populateListView();
         return mainView;
     }
 }
