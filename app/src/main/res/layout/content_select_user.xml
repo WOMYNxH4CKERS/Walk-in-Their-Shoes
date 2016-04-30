@@ -25,6 +25,7 @@
         android:scaleType="centerInside"
         android:id="@+id/refugee_signup_button"
         android:src="@drawable/refugee"
+        android:layout_below="@+id/TEXT"
         android:layout_alignParentStart="true" />
 
 

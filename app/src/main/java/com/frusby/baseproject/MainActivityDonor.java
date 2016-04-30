@@ -21,7 +21,7 @@ public class MainActivityDonor extends BaseFragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_donor);
 
         ButterKnife.bind(this);
 

@@ -3,7 +3,6 @@ package com.frusby.baseproject;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 
 import com.frusby.baseproject.BaseComponents.BaseFragmentActivity;
 import com.frusby.baseproject.adapters.BasicPagerAdapter;
@@ -22,7 +21,7 @@ public class MainActivityRefugee extends BaseFragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_refugee);
 
         ButterKnife.bind(this);
 
