@@ -29,6 +29,11 @@
             android:label="@string/title_activity_select_user"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".Refugee_Profile"
+            android:label="@string/title_activity_refugee__profile"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

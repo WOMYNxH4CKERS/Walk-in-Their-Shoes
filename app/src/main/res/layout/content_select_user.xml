@@ -15,10 +15,11 @@
     android:layout_height="100dp"
     android:scaleType="centerInside"
     android:id="@+id/TEXT"
-    android:text ="Please select of you are:"
+    android:text ="Please select if you are:"
     android:textSize="40dp"
-    android:layout_above="@+id/donor_signup_button"
-    android:layout_alignParentStart="true" />
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="52dp" />
 
 
     <ImageView
@@ -36,9 +37,8 @@
         android:layout_height="100dp"
         android:scaleType="centerInside"
         android:id="@+id/donor_signup_button"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="250dp"
         android:src="@drawable/donor"
+        android:layout_below="@+id/refugee_signup_button"
         android:layout_alignParentEnd="true" />
 
 
