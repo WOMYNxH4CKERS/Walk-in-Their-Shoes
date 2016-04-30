@@ -18,7 +18,7 @@ import butterknife.ButterKnife;
 public class MatchesTab extends TabFragment {
 
     public MatchesTab() {
-        this.title = "Sample";
+        this.title = "Matches";
     }
 
     @Override

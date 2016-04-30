@@ -18,7 +18,7 @@ import butterknife.ButterKnife;
 public class NeedsTab extends TabFragment {
 
     public NeedsTab() {
-        this.title = "Sample";
+        this.title = "Needs";
     }
 
     @Override

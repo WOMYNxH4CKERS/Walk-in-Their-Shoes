@@ -18,7 +18,7 @@ import butterknife.ButterKnife;
 public class LocalTab extends TabFragment {
 
     public LocalTab() {
-        this.title = "Sample";
+        this.title = "Local";
     }
 
     @Override

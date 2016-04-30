@@ -18,7 +18,7 @@ import butterknife.ButterKnife;
 public class ConnectTab extends TabFragment {
 
     public ConnectTab() {
-        this.title = "Sample";
+        this.title = "Connect";
     }
 
     @Override
