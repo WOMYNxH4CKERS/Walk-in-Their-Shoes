@@ -16,7 +16,7 @@ public class Refugee_Profile extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        
+
 
     }
 
