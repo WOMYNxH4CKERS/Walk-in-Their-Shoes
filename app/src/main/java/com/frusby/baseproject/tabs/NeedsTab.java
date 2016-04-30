@@ -8,6 +8,7 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.frusby.baseproject.R;
 
@@ -69,7 +70,10 @@ public class NeedsTab extends TabFragment {
         return mainView;
     }
 
-
+    private void showMessage(String message) {
+        Toast.makeText(getActivity().getBaseContext(), message,
+                Toast.LENGTH_SHORT).show();
+    }
 
     @OnClick(R.id.food_button)
     public void onClickFoodButton() {
@@ -80,6 +84,7 @@ public class NeedsTab extends TabFragment {
 
         }
         selectArray[0] = !selectArray[0];
+        showMessage("Updated");
     }
 
     @OnClick(R.id.clothes_button)
@@ -91,6 +96,8 @@ public class NeedsTab extends TabFragment {
             clothesButton.setBackground(new ColorDrawable(Color.TRANSPARENT));
         }
         selectArray[1] = !selectArray[1];
+        showMessage("Updated");
+
     }
 
     @OnClick(R.id.housing_button)
@@ -102,6 +109,7 @@ public class NeedsTab extends TabFragment {
             housingButton.setBackground(new ColorDrawable(Color.TRANSPARENT));
         }
         selectArray[2] = !selectArray[2];
+        showMessage("Updated");
     }
 
     @OnClick(R.id.money_button)
@@ -113,6 +121,7 @@ public class NeedsTab extends TabFragment {
             moneyButton.setBackground(new ColorDrawable(Color.TRANSPARENT));
         }
         selectArray[3] = !selectArray[3];
+        showMessage("Updated");
     }
 
     @OnClick(R.id.medical_button)
@@ -124,6 +133,7 @@ public class NeedsTab extends TabFragment {
             medicalButton.setBackground(new ColorDrawable(Color.TRANSPARENT));
         }
         selectArray[4] = !selectArray[4];
+        showMessage("Updated");
     }
 
     @OnClick(R.id.education_button)
@@ -135,6 +145,7 @@ public class NeedsTab extends TabFragment {
             educationButton.setBackground(new ColorDrawable(Color.TRANSPARENT));
         }
         selectArray[5] = !selectArray[5];
+        showMessage("Updated");
     }
 
 
