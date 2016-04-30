@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_select_user"
+    tools:context="com.frusby.baseproject.SelectUserActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:scaleType="centerInside"
+    android:id="@+id/TEXT"
+    android:text ="Please select of you are:"
+    android:textSize="40dp"
+    android:layout_above="@+id/donor_signup_button"
+    android:layout_alignParentStart="true" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:id="@+id/refugee_signup_button"
+        android:src="@drawable/refugee"
+        android:layout_above="@+id/donor_signup_button"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:id="@+id/donor_signup_button"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/donor"
+        android:layout_alignParentEnd="true" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/donor_signup_button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

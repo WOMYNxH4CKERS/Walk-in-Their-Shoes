@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6374d4</color>
+    <color name="colorPrimaryDark">#4c5dc9</color>
+    <color name="colorAccent">#fa28b8</color>
+    <color name="blue">#FF2020DD</color>
+    <color name="transparent_blue">#AA2020DD</color>
+    <color name="transparent_orange">#BBDD6020</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorSecondary">#DDDDDD</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+</resources>
