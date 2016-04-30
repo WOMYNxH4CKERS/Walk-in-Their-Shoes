@@ -19,4 +19,5 @@
     </string>
     <string name="title_activity_select_user">SelectUserActivity</string>
     <string name="title_activity_refugee__profile">Refugee_Profile</string>
+    <string name="title_activity_select_clothes">SelectClothesActivity</string>
 </resources>
