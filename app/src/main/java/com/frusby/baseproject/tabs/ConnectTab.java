@@ -35,7 +35,7 @@ public class ConnectTab extends TabFragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        mainView = inflater.inflate(R.layout.fragment_tab, container, false);
+        mainView = inflater.inflate(R.layout.connect_tab, container, false);
         ButterKnife.bind(this, mainView);
         return mainView;
     }
