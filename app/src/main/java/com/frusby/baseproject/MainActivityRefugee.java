@@ -35,10 +35,10 @@ public class MainActivityRefugee extends BaseFragmentActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         BasicPagerAdapter adapter = new BasicPagerAdapter(getSupportFragmentManager());
+        adapter.addFragment(new ConnectTab());
         adapter.addFragment(new NeedsTab());
         adapter.addFragment(new MatchesTab());
         adapter.addFragment(new LocalTab());
-        adapter.addFragment(new ConnectTab());
         viewPager.setAdapter(adapter);
     }
 
