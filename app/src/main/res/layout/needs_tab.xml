@@ -13,8 +13,8 @@
     <ImageView
         android:id="@+id/housing_button"
         android:src="@drawable/housing"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_below="@+id/food_button"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -22,8 +22,8 @@
     <ImageView
         android:id="@+id/food_button"
         android:src="@drawable/food"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginRight="25dp" />
@@ -31,16 +31,16 @@
     <ImageView
         android:id="@+id/clothes_button"
         android:src="@drawable/clothes"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_below="@+id/housing_button"
         android:layout_marginLeft="25dp"/>
 
     <ImageView
         android:id="@+id/money_button"
         android:src="@drawable/money"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/food_button"
         android:layout_marginRight="25dp"/>
@@ -48,16 +48,16 @@
     <ImageView
         android:id="@+id/medical_button"
         android:src="@drawable/health"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_below="@+id/clothes_button"
         android:layout_marginLeft="25dp"/>
 
     <ImageView
         android:id="@+id/education_button"
         android:src="@drawable/education"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/money_button"
         android:layout_marginRight="25dp"/>
