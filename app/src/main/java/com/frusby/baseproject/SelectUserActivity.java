@@ -30,7 +30,8 @@ public class SelectUserActivity extends AppCompatActivity {
         refugee_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent donor_register = new Intent(getApplicationContext(), Donor_SignUp.class);
+                startActivity(donor_register);
             }
         });
 
