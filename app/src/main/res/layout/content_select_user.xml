@@ -24,17 +24,16 @@
         android:layout_height="100dp"
         android:scaleType="centerInside"
         android:id="@+id/refugee_signup_button"
-        android:src="@drawable/refugee"
-        android:layout_below="@+id/TEXT"
+        android:src="@drawable/refg"
+        android:layout_centerVertical="true"
         android:layout_alignParentStart="true" />
-
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:scaleType="centerInside"
         android:id="@+id/donor_signup_button"
-        android:src="@drawable/donor"
+        android:src="@drawable/dono"
         android:layout_below="@+id/refugee_signup_button"
         android:layout_alignParentEnd="true" />
 

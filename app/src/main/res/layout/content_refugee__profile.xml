@@ -10,4 +10,176 @@
     tools:showIn="@layout/activity_refugee__profile"
     tools:context="com.frusby.baseproject.Refugee_Profile">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/REFUGEE"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please fill out the following needs:"
+                    android:textSize="40dp"
+                    android:id="@+id/textView2"
+                    android:layout_below="@+id/textView4"
+                    android:layout_alignEnd="@+id/textView3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Username: "
+                    android:id="@+id/textView"
+                    android:layout_below="@+id/textView3"
+                    android:layout_alignParentStart="true"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create a username:"
+                    android:textSize="40dp"
+                    android:id="@+id/textView3"
+                    android:layout_marginTop="110dp"
+                    android:layout_alignParentStart="true" />
+                <EditText
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/textView"
+                    android:layout_toRightOf="@id/textView"
+                    android:hint="ENTER A USERNAME:"
+                    android:id="@+id/editText2" />
+
+                <EditText
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="ENTER A PASSWORD:"
+                    android:id="@+id/editText"
+                    android:layout_alignTop="@+id/textView4"
+                    android:layout_alignEnd="@+id/editText2" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Password:"
+                    android:id="@+id/textView4"
+                    android:textColor="@color/black"
+                android:layout_below="@+id/editText2"
+                android:layout_alignParentStart="true" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/textView2"
+                    android:layout_alignEnd="@+id/textView2">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CLOTHES"
+                        android:id="@+id/checkBox"
+                        android:checked="false"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HEALTH"
+                        android:id="@+id/checkBox5"
+                        android:checked="false"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/checkBox6" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EDUCATION"
+                        android:id="@+id/checkBox6"
+                        android:checked="false"
+                        android:layout_below="@+id/checkBox5"
+                        android:layout_alignParentEnd="true" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FOODS"
+                        android:id="@+id/checkBox2"
+                        android:checked="false"
+                        android:layout_below="@+id/checkBox5"
+                        android:layout_alignStart="@+id/checkBox" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MONEY "
+                        android:id="@+id/checkBox4"
+                        android:checked="false"
+                        android:layout_below="@+id/checkBox6" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HOUSING"
+                        android:id="@+id/checkBox7"
+                        android:checked="false"
+                        android:layout_below="@+id/checkBox6"
+                        android:layout_alignStart="@+id/checkBox6" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SUBMIT"
+                        android:id="@+id/button"
+                        android:layout_below="@+id/checkBox7"
+                        android:layout_toStartOf="@+id/checkBox7" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageButton"
+                        android:src="@drawable/heart"
+                        android:layout_alignTop="@+id/button"
+                        android:layout_toStartOf="@+id/button" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignEnd="@+id/editText2" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/refg"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="69dp" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </FrameLayout>
+
 </RelativeLayout>
