@@ -35,6 +35,11 @@
             android:name=".SelectClothesActivity"
             android:label="@string/title_activity_select_clothes"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Donor_SignUp"
+            android:label="@string/title_activity_donor__sign_up"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
