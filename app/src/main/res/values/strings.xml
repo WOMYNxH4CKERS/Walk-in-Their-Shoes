@@ -3,7 +3,7 @@
     <string name="scan">Scan scan scan</string>
     <string name="confirm_scan">Scan</string>
     <string name="tab_title">Title</string>
-    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_login">WITS</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
