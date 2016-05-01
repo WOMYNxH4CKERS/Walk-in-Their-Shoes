@@ -28,6 +28,8 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="25dp"/>
 
+
+
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,6 +38,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="25dp"
         android:layout_marginStart="25dp" />
+
 
     <CheckBox
         android:layout_width="wrap_content"

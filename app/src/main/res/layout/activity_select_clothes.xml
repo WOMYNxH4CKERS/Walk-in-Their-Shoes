@@ -22,6 +22,51 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_select_clothes" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/checkBox1"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/shirt"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="125dp"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/checkBox2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/pants"/>
 
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/checkBox3"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="260dp"
+        android:src="@drawable/jacket"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/checkBox4"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="325dp"
+        android:src="@drawable/socks"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="375dp"
+        android:layout_alignRight="@+id/checkBox5"
+        android:src="@drawable/shoes"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="200dp"
+        android:text="Submit"
+        android:id="@+id/submit_button"
+        />
 
 </android.support.design.widget.CoordinatorLayout>
