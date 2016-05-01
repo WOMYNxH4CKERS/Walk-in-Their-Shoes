@@ -11,9 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView2"
-        android:src="@drawable/meo"
-        android:layout_above="@+id/textView11"
-        android:layout_alignParentEnd="true" />
+        android:src="@drawable/mawe"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,15 +21,17 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Tarek's life would never be the same again: The family would flee to Syria and eventually to the U.S., and they'd never be able to return home. Inspired by his own experiences as a refugee, he traveled to the region for Refinery29, speaking with Syrian refugee women and sharing their stories through Daughters of Paradise."
         android:id="@+id/textView11"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="MY STORY"
+        android:textSize="30sp"
         android:id="@+id/textView12"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

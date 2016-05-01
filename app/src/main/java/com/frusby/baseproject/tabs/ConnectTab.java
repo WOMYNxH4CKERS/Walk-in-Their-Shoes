@@ -1,6 +1,9 @@
 package com.frusby.baseproject.tabs;
 
 import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -10,8 +13,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.frusby.baseproject.R;
+import com.frusby.baseproject.SelectUserActivity;
 
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 
 /**
@@ -50,4 +55,12 @@ public class ConnectTab extends TabFragment {
         populateListView();
         return mainView;
     }
+
+    @OnClick(R.id.story_button)
+    public void onClickFoodButton() {
+        Intent to_select_user = new Intent(getActivity(), STORY.class);
+        startActivity(to_select_user);    }
 }
+
+
+

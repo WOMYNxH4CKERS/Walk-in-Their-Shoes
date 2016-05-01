@@ -75,17 +75,6 @@ public class NeedsTab extends TabFragment {
                 Toast.LENGTH_SHORT).show();
     }
 
-    @OnClick(R.id.food_button)
-    public void onClickFoodButton() {
-        if (!selectArray[0]) {
-            foodButton.setBackground(colorDrawable);
-        } else {
-            foodButton.setBackground(new ColorDrawable(Color.TRANSPARENT));
-
-        }
-        selectArray[0] = !selectArray[0];
-        showMessage("Updated");
-    }
 
     @OnClick(R.id.clothes_button)
     public void onClickClothesButton() {
