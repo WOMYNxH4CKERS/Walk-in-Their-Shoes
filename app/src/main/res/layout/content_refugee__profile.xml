@@ -149,8 +149,8 @@
                         android:text="SUBMIT"
                         android:id="@+id/button"
                         android:layout_below="@+id/editText"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginTop="36dp" />
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp" />
 
                 <!--</RelativeLayout>-->
 
