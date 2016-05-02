@@ -26,12 +26,19 @@ Refugee Registration Page
 Donor Registration Page
 
 <br>
+<img height="600" src="https://github.com/WOMYNxH4CKERS/Walk-in-Their-Shoes/blob/master/ScreenshotConnect.png" />
+<br>
+Connect Page
+
+<br>
 <img height="600" src="https://github.com/WOMYNxH4CKERS/Walk-in-Their-Shoes/blob/master/ScreenshotNeeds.png" />
 <br>
+Needs Page
 
 <br>
 <img height="600" src="https://github.com/WOMYNxH4CKERS/Walk-in-Their-Shoes/blob/master/ScreenshotMatches.png" />
 <br>
+Matches Page
 
 <br>
 <img height="600" src="https://github.com/WOMYNxH4CKERS/Walk-in-Their-Shoes/blob/master/ScreenshotMyStory.png" />
